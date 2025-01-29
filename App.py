@@ -8,8 +8,11 @@ st.title("Researcher Profile Page")
 name = "N Manzini"
 field = "MSc Nanoscience"
 institution = "University of Johannesburg"
+phone_number = ("0763590257")
+linkedin_url = ("https://www.linkedin.com/in/ngcebo-manzini-b27687221/")
+github_url = ("https://github.com/Ngcebo99/myprofile/edit/main/App.py")
 
-# Display basic profile information
+# Display basic profile information"
 st.header("Researcher Overview")
 st.write(f"**Name:** {name}")
 st.write(f"**Field of Research:** {field}")
