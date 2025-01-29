@@ -5,18 +5,21 @@ import pandas as pd
 st.title("Researcher Profile Page")
 
 # Collect basic information
-name = "N Manzini"
-field = "MSc Nanoscience"
+name = "Ngcebo Lizwi Manzini"
+field = "MSc in Nanoscience"
 institution = "University of Johannesburg"
-phone_number = ("0763590257")
-linkedin_url = ("https://www.linkedin.com/in/ngcebo-manzini-b27687221/") # Fixed Linkedin URL format
-github_url = ("https://github.com/Ngcebo99/myprofile/edit/main/App.py")
+phone_number = "+27 76 359 0257"
+linkedin_url = "https://www.linkedin.com/in/ngcebo-manzini-b27687221/"  # Fixed LinkedIn URL format
+github_url = "https://github.com/Ngcebo99"
 
-# Display basic profile information"
+# Display basic profile information
 st.header("Researcher Overview")
 st.write(f"**Name:** {name}")
 st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
+st.write(f"**Phone Number:** {phone_number}")
+st.write(f"**LinkedIn:** [Visit LinkedIn]({linkedin_url})")  # Corrected LinkedIn link
+st.write(f"**GitHub:** [Visit GitHub]({github_url})")
 
 # Add a section for publications
 st.header("Publications")
@@ -48,5 +51,5 @@ if uploaded_file:
 
 # Add a contact section
 st.header("Contact Information")
-email = "Ngcebolee@gmail.com"
+email = "denzel.muwanazi@gmail.com"
 st.write(f"You can reach {name} at {email}.")
