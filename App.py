@@ -9,7 +9,7 @@ name = "N Manzini"
 field = "MSc Nanoscience"
 institution = "University of Johannesburg"
 phone_number = ("0763590257")
-linkedin_url = ("https://www.linkedin.com/in/ngcebo-manzini-b27687221/")
+linkedin_url = ("https://www.linkedin.com/in/ngcebo-manzini-b27687221/") # Fixed Linkedin URL format
 github_url = ("https://github.com/Ngcebo99/myprofile/edit/main/App.py")
 
 # Display basic profile information"
