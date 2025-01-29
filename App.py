@@ -5,7 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
 
-
+import plotly.express as px
 import pandas as pd
 import streamlit as st
 st.write("Hello, Streamlit!")
