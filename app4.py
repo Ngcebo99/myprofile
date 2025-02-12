@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import re
-import itertools
-from io import BytesIO
+
 
 # Title of the app
 st.title("Researcher Profile Page")
